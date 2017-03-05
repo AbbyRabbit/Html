@@ -1,0 +1,118 @@
+<DOCTYPE!  html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title>Task1</title>
+	<link rel="stylesheet" type="text/css" >
+</head>
+
+<body>
+	<div class="Part1">
+		<h1>1. Text</h1>
+		<p> author time </p>
+		<p> <strong>This is a long phase.</strong>This is a long phase.This is a long phase. </p>
+		<p><em>This is a long phase.</em><a href="http://ife.baidu.com"> This is a long phase.</a><q>This is a long phase.</q></p>
+		<img src="http://wx3.sinaimg.cn/mw690/6ffa5773gy1fcy3k60bl2j20fu0ir0u3.jpg" alt="Fail" title="tree">
+		<br/>
+		<a href="mailto:yy@imooc.com" ?subject=hello &body=something。> send email to me</a>
+	</div><!--Part1 End-->
+
+	<div class="Part2">
+		<h1>2.List</h1>
+	    <h2>2.1 Unordered List</h1>
+		<ul>
+			<li><a href="#">link1</a></li>
+			<li><a href="#">link2</a></li>
+			<li><a href="#">link3</a></li>
+			<li><a href="#">link4</a></li>
+		</ul>
+
+		<h2>2.2 Ordered list</h2>
+		<ol>
+			<li>one</li>
+			<li>two</li>
+			<li>three</li>
+			<li>four</li>
+		</ul>
+		<br/>
+
+		<h2>2.3 Tabel</h2>
+		<table border="1px">
+		<tr>
+			<th>title</th>
+			<th>title</th>
+			<th>title</th>
+		</tr>
+		<tr>
+			<td>content</td>
+			<td>content</td>
+			<td><a href="#">link</a></td>
+		</tr>
+		<tr>
+			<td>content</td>
+			<td>content</td>
+			<td><a href="#">link</a></td>
+		</tr>
+		<tr>
+			<td>content</td>
+			<td colspan="2">total</td>
+		</tr>		
+		</table>
+	</div><!--Part2 End-->
+
+	<div class="Part3">
+		<h1>3. Input</h1>
+		<form method="post" action="save.php">
+	 	 <label for="username">Username:</label>
+     	<input type="text"  name="username" id="username" value="Email/Username">
+     	 <br/>
+      	<label for="pass">Password:</label>
+      	<input type="password"  name="pass" id="pass" value="" />    
+     	 <input type="submit" value="Submit"  name="submit" />
+     	 <input type="reset" value="Reset" name="reset" />
+		</form>
+
+		<textarea rows="5">
+			Please Input Your Introduction.
+		</textarea>
+		<br/>
+	</div><!--Part3 End-->
+
+	<div id="Part4">
+		<h1>4. Choose</h1>
+		<form>
+			Choose One:<br/>
+			<label for="A">A</label>
+			<input type="radio" value="A" name="chooseone" id="A">
+			<label for="B">B</label>
+			<input type="radio" value="B" name="chooseone" id="B">
+		</form>
+
+		<form>
+			Choose Two:<br/>
+			<label>A</label>
+			<input type="checkbox" value="A" name="chooseA">
+			<label>B</label>
+			<input type="checkbox" value="B" name="chooseB">
+			<label>C</label>
+			<input type="checkbox" value="C" name="chooseC">
+		</form>
+
+		<form>
+			Choose One:<br/>
+			<select>
+				<option value="A" selected="selected"> A </option>
+				<option value="B"> B </option>
+				<option value="C"> C </option>
+			</select>	
+		</form>
+
+		<form>
+			Choose Two ( Ctrl+A/B/C ):<br/>
+			<select multiple="multiple">
+				<option value="A" selected="selected"> A </option>
+				<option value="B"> B </option>
+				<option value="C"> C </option>
+			</select>
+		</form>
+	</div><!--Part4 End-->
